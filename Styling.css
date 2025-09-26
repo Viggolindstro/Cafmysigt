@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+   .nav-header {
+    background-color: rgb(136, 77, 0);
+padding: 16px; 
+display: flex;
+justify-content: center;
+}
+.nav-ul {
+    list-style: none;
+    display:flex;
+    gap: 64px;
+    justify-content: space-between;
+        }
+        a {
+           transition: all 0.2s ease-in-out;
+           text-decoration: none;
+           color: #f7f7f7;
+           font-family: 'Times New Roman', Times, serif;
+        }
+        a:hover{
+    transition: all 0.1s ease-in-out;
+    color: #ffdd45;
+    text-decoration: underline;
+    }
+    main {
+        background-color: rgb(255, 242, 206);
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+    .Titel {
+text-decoration: brown;
+font-family: 'Times New Roman', Times, serif;
+justify-content: center;
+display: flex;
+flex-direction: column;
+gap: 3px;
+padding: 1rem;
+margin-top: auto;
+
+    }
+        .Om-oss {
+font-family: 'Times New Roman', Times, serif;
+justify-content: center;
+display: flex;
+flex-direction: column;
+gap: 16px;
+padding: 5rem;
+    }
+    .Vår-meny {
+font-family: 'Times New Roman', Times, serif;
+justify-content: center;
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 5rem;
+background-color:bisque
+    }
+    #Hitta-hit {
+        background-color: rgb(136, 77, 0);
+        gap: 20px;
+padding: 70px; 
+display: flex;
+justify-content: center;
+flex-direction: column;
+    background-color:rgb(136, 77, 0)
+    }
+            a {
+           transition: all 0.2s ease-in-out;
+           text-decoration: none;
+           color: #f7f7f7;
+           font-family: 'Times New Roman', Times, serif;
+        }
+        a:hover{
+    transition: all 0.1s ease-in-out;
+    color: #ffdd45;
+    text-decoration: underline;
+    }
+    .Färskt-från-bageriet {
+font-family: 'Times New Roman', Times, serif;
+text-size-adjust: 4;
+justify-content: center;
+display: flex;
+flex-direction: column;
+gap: 5px;
+padding: 5rem;
+background-color:bisque
+    }
