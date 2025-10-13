@@ -1,15 +1,26 @@
+<!-- 
+Du har överlag skrivit bra kod och använder för det mesta rätt taggar.
+Men du måste öva mer på indentering, hur klassnamn och id ska skrivas, 
+placering av taggar samt vart det är lämpligt att ha space mellan element
+-->
+
 <!DOCTYPE html>
 <html lang="sv">
+    <!-- Du stänger inte <head> någonstanns -->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <title>Café Mysigt</title>
         <link rel="stylesheet" href="./Styling.css"/>
+    <!-- Här borde <head> stängas -->
     <main>
+        <!-- Denna <header> bör ligga utanför main då det är för navigeringen i toppen. Du behöver även kolla lite på indenteringen över <header>.
+        Kolla vart du placerar startaggarna respektive sluttaggarna-->
          <header class= "nav-header">
             <nav>
               <ul class="nav-ul">
+                <!-- Börja id med liten bokstav. Alltså om-oss och inte Om-oss -->
                 <li><a href="#Om-oss">Om oss</a></li>
                 <li><a href="#Vår-meny">Meny</a></li>
                 <li><a href="#Öppettider">Öppettider</a></li>
@@ -18,21 +29,31 @@
             </ul>
         </nav>
     </header>
+    <!-- Börja klassnamn med liten bokstav, samma med id.
+    Istället för att wrappa titeln runt en <section> och sedan en <strong> och <p> hade du kunnat använda bara en <h1>-->
     <section class="Titel" id="Titel">
+    <!-- <strong> ska indenteras -->
     <strong><p>Café Mysigt</p></strong>
     </section>
+
+<!-- Denna <section> ska indenteras. Se ovan för klassnamnen -->
 <section class="Om-oss" id="Om-oss">
+<!-- <h2> här ska också indenteras.-->
 <h2>Om oss</h2>
 </section>
+<!-- Sätt gärna en rads space mellan varje element, alltså dessa två sections. Det blir lättare att läsa koden då. -->
 <section class="Om-oss-text" id="Om-oss-text">
+<!-- Indentering -->
 <p> Välkommen till Café Mysigt - stadens mysigaste plats för kaffe och fika! Vi har serverat färskbryggd kaffe och hembakade bullar sedan 1995. Hos oss hittar du alltid en varm atmosfär och vänlig service. </p>
 </section>
 
+<!-- Samma princip i denna <section> med indentering, klassnamn och id -->
 <section class="Vår-meny" id="Vår-meny">
 <h1>Vår Meny<h1>
     <h2>Drycker</h2>
 <h3>Alla våra drycker bryggs med kärlek</h3>
     <h4>Vi erbjuder ett brett utbud av drycker för alla smaker och tillfällen</h2>
+    <!-- Du måste ha <ol> i en ul-lista. Kolla även på indenteringen -->
     <ol>1.Kaffe - 35 kr</ol>
 <ol>2.Cappuccino - 45 kr</ol>
 <ol>3.Te (olika sorter) - 30 kr</ol>
@@ -44,12 +65,14 @@
 <h2>Bakverk</h2>
 <p><strong>Bakat färskt varje dag</strong> Serveras från kl 7:00</p>
 <h4>Alla våra bakverk bakas på plats varje morgon med naturliga ingredienser och traditionella recept. </h4>
+<!-- Samma med dessa ol-taggar som ovan -->
 <ol>1.Kanelbullar - 25 kr/st</ol>
 <ol>2.Chokladcroissant - 35 kr/st</ol>
 <ol>3.Blåbärsmuffins - 30 kr/st</ol>
 <ol>4.Smörgås med pålägg - 55 kr/st </ol>
 
 </section>
+<!-- Sätt gärna space mellan dessa sections -->
 <section class="Öppettider" id="Öppettider">
     <h1>Öppettider</h1>
     <h2>Veckoschema</h2>
@@ -59,6 +82,7 @@
     <h4>Vi är öppna alla dagar året runt förutom midsommar, julafton och nyårsafton. Kom och njut av en lugn stund hos oss!</h4>
 
 </section class="Hitta-hit">
+    <!-- Sätt gärna space mellan dessa -->
 <footer id="Hitta-hit">
     <h3>Hitta hit</h3>
     <h4>Storgatan 42, 123 45 Stockholm</h4>
@@ -67,5 +91,6 @@
 
 </footer>
 
+    <!-- Här måste du kolla mer på indenteringen -->
     </body>
     </html>
