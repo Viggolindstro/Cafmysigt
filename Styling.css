@@ -1,3 +1,13 @@
+/* 
+Du använder rätt CSS klasser vilket är bra,
+men du behöver öva mer på indentering.
+Det finns inte riktigt någon struktur över hur du indenterar CSS-koden, utan 
+många selectors är bara placerade lite hur som helst.
+
+Du bör ha space mellan varje selector för att förbättra läsbarheten i koden.
+På vissa selectors har du ett space i slutet som inte behövs.
+*/
+
 *{
     padding: 0;
     margin: 0;
@@ -35,6 +45,7 @@ justify-content: center;
 color:#8b4513;
 font-family: 'Times New Roman', Times, serif;
 margin:auto;
+/* font-size skrivs alltid i rem, aldrig px */
 font-size: 40px; 
 font-weight: bold;
 padding: 50px;
@@ -44,6 +55,7 @@ gap:20px;
         .Om-oss {
 font-family: 'Times New Roman', Times, serif;
 margin: auto;
+ /* font-size skrivs alltid i rem, aldrig px */
 font-size: 20px;
 color:#654321;
 padding:0px;
@@ -52,6 +64,7 @@ padding:0px;
         font-family: 'Times New Roman', Times, serif;
         flex-direction: column;
         margin: 0 auto;
+        /* font-size skrivs alltid i rem, aldrig px */
         font-size: 17px;
         padding: 2rem;
         text-align: center;
